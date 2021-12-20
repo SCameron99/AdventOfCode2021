@@ -52,6 +52,7 @@ def day2_part2(dataset):
             aim -= int(current_entry[1])
     return forward * down
 
+
 day = AdventData(2, "Day2.txt")
 data = day.get_data()
 
